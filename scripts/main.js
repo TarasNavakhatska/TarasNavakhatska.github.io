@@ -2,7 +2,7 @@ var myImage = document.querySelector('img');
 
 myImage.onclick = function () {
     var mySrc = myImage.getAttribute('src');
-    if (mySrc === 'images/Mozilla_Firefox.png') {
+    if (mySrc === 'images/mozilla_firefox.png') {
         myImage.setAttribute('src', 'images/firefox-nightly.png');
     } else {
         myImage.setAttribute('src', 'images/Mozilla_Firefox.png');
