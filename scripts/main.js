@@ -5,7 +5,7 @@ myImage.onclick = function () {
     if (mySrc === 'images/mozilla_firefox.png') {
         myImage.setAttribute('src', 'images/firefox-nightly.png');
     } else {
-        myImage.setAttribute('src', 'images/Mozilla_Firefox.png');
+        myImage.setAttribute('src', 'images/mozilla_firefox.png');
     }
 }
 
